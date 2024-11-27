@@ -1,0 +1,31 @@
+1. Importar librerías necesarias
+2. Descargar dataset y guardarlo
+3. Crear variable con el nombre de cada clase y su correspondiente numero
+4. Definir cuantas imágenes de entrenamiento y prueba habrán
+5. Crear arrays vacíos que contendrán las imágenes con las dimensiones y otro con las clases
+6. Rellenar los arrays con las imágenes y las clases
+7. Escalar imágenes
+8. Crear estructura del modelo
+9. Compilar modelo
+10. Entrenar modelo con imágenes de entreno
+11. Predecir imágenes de prueba
+
+#### RESUMEN ####
+1. Importar librerías
+2. Crear arrays con imágenes y otro con las clases
+3. Crear estructura de modelo, compilarlo y entrenarlo con las imágenes de entreno
+4. Predecir las imágenes de prueba
+
+#### DIMENSIONES A TENER EN CUENTA ####
+	imagenes_entrena:  (1470, 20, 30)
+	clases_entrena (1470,)
+	imagenes_prueba:  (630, 20, 30)
+	clases_prueba:  (630,)
+la primera dimensión de cada array de imágenes y clases es la multiplicación entre el numero de imágenes por el numero de clases
+las demás dimensiones de imágenes se deben a las dimensiones de las imágenes, los pixeles, la resolución
+
+
+##################################################################################### Docs a números #####################################################################################
+1. Coger todo el contenido de los documentos
+2. Separar este contenido en un array donde cada posición es un carácter
+3. 
